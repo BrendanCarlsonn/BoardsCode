@@ -1,0 +1,120 @@
+
+body {
+    background-image: url('HTML2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .button {
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    height: 100px;
+    width: 250px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    left: 51%;
+    transform: translateX(-50%);
+  }
+
+.button1 {background-color: darkblue}
+.button2 {
+    font-size: 18px;
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    left: 5%;
+    display: none;
+}
+.button3 {    
+    height: 350px;
+    width: 350px;
+    left: 30%;
+    transform: translateX(-50%);
+    display: none;
+}
+.button4 {    
+    height: 350px;
+    width: 350px;
+    left: 55%;
+    transform: translateX(-50%);
+    display: none;
+}
+.button5 {    
+    height: 350px;
+    width: 350px;
+    left: 30%;
+    transform: translateX(-50%);
+    display: none;
+}
+.button6 {    
+    height: 350px;
+    width: 350px;
+    left: 55%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.container {
+    height: 100px;
+    position: relative;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    display: none;
+  }
+
+.button-1 {
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 60px;
+  width: 100px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button:hover,
+.button:focus {
+  background-color: blue;
+}
